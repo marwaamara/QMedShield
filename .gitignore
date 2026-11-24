@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pt
+*.log
+logs/
+tmp/
+# raw CICIoMT2024 data is not redistributed
+CIC*IoMT*/
+*.csv.zip
+*.parquet
+# but keep the small run index used by the scripts
+!revision_experiments/inputs/runs_index_nb04.csv

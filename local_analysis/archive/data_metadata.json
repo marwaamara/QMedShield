@@ -1,0 +1,20 @@
+{
+  "n_classes_actual": 8,
+  "n_features_original": 25,
+  "n_train_binary": 35000,
+  "n_train_multi": 35000,
+  "n_train_multi_smote": 35000,
+  "pca_variance_binary": 0.9632711829039173,
+  "pca_variance_multiclass": 0.9632711829039173,
+  "class_names_m": [
+    "Benign",
+    "ARP_Spoofing",
+    "Reconnaissance",
+    "MQTT_Malformed",
+    "MQTT_DoS",
+    "MQTT_DDoS",
+    "DoS",
+    "DDoS"
+  ],
+  "smote_available": false
+}

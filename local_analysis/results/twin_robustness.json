@@ -1,0 +1,174 @@
+{
+ "raw_space": [
+  {
+   "perturbation": "missing",
+   "severity": 0.0,
+   "accuracy": 0.7742666666666667
+  },
+  {
+   "perturbation": "missing",
+   "severity": 0.01,
+   "accuracy": 0.7704
+  },
+  {
+   "perturbation": "missing",
+   "severity": 0.05,
+   "accuracy": 0.7498666666666667
+  },
+  {
+   "perturbation": "missing",
+   "severity": 0.1,
+   "accuracy": 0.738
+  },
+  {
+   "perturbation": "missing",
+   "severity": 0.2,
+   "accuracy": 0.7069333333333333
+  },
+  {
+   "perturbation": "jitter",
+   "severity": 0.0,
+   "accuracy": 0.7742666666666667
+  },
+  {
+   "perturbation": "jitter",
+   "severity": 0.01,
+   "accuracy": 0.7741333333333333
+  },
+  {
+   "perturbation": "jitter",
+   "severity": 0.05,
+   "accuracy": 0.7642666666666666
+  },
+  {
+   "perturbation": "jitter",
+   "severity": 0.1,
+   "accuracy": 0.7544
+  },
+  {
+   "perturbation": "jitter",
+   "severity": 0.2,
+   "accuracy": 0.6917333333333333
+  },
+  {
+   "perturbation": "packet_loss",
+   "severity": 0.0,
+   "accuracy": 0.7742666666666667
+  },
+  {
+   "perturbation": "packet_loss",
+   "severity": 0.01,
+   "accuracy": 0.7756
+  },
+  {
+   "perturbation": "packet_loss",
+   "severity": 0.05,
+   "accuracy": 0.7738666666666667
+  },
+  {
+   "perturbation": "packet_loss",
+   "severity": 0.1,
+   "accuracy": 0.7656
+  },
+  {
+   "perturbation": "packet_loss",
+   "severity": 0.2,
+   "accuracy": 0.7448
+  },
+  {
+   "perturbation": "protocol_var",
+   "severity": 0.0,
+   "accuracy": 0.7742666666666667
+  },
+  {
+   "perturbation": "protocol_var",
+   "severity": 0.01,
+   "accuracy": 0.7744
+  },
+  {
+   "perturbation": "protocol_var",
+   "severity": 0.05,
+   "accuracy": 0.7745333333333333
+  },
+  {
+   "perturbation": "protocol_var",
+   "severity": 0.1,
+   "accuracy": 0.7745333333333333
+  },
+  {
+   "perturbation": "protocol_var",
+   "severity": 0.2,
+   "accuracy": 0.7736
+  }
+ ],
+ "adversarial_pca": [
+  {
+   "attack": "FGSM",
+   "epsilon": 0.0,
+   "accuracy": 0.7742666666666667
+  },
+  {
+   "attack": "PGD-10",
+   "epsilon": 0.0,
+   "accuracy": 0.7742666666666667
+  },
+  {
+   "attack": "FGSM",
+   "epsilon": 0.01,
+   "accuracy": 0.7446666666666667
+  },
+  {
+   "attack": "PGD-10",
+   "epsilon": 0.01,
+   "accuracy": 0.7445333333333334
+  },
+  {
+   "attack": "FGSM",
+   "epsilon": 0.02,
+   "accuracy": 0.7068
+  },
+  {
+   "attack": "PGD-10",
+   "epsilon": 0.02,
+   "accuracy": 0.7038666666666666
+  },
+  {
+   "attack": "FGSM",
+   "epsilon": 0.05,
+   "accuracy": 0.5941333333333333
+  },
+  {
+   "attack": "PGD-10",
+   "epsilon": 0.05,
+   "accuracy": 0.40986666666666666
+  },
+  {
+   "attack": "FGSM",
+   "epsilon": 0.1,
+   "accuracy": 0.5001333333333333
+  },
+  {
+   "attack": "PGD-10",
+   "epsilon": 0.1,
+   "accuracy": 0.32413333333333333
+  }
+ ],
+ "constrained": [
+  {
+   "eps_rel": 0.0,
+   "accuracy": 0.765
+  },
+  {
+   "eps_rel": 0.02,
+   "accuracy": 0.728
+  },
+  {
+   "eps_rel": 0.05,
+   "accuracy": 0.649
+  },
+  {
+   "eps_rel": 0.1,
+   "accuracy": 0.559
+  }
+ ]
+}

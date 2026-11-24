@@ -1,0 +1,872 @@
+{
+ "42": {
+  "raw_space": [
+   {
+    "perturbation": "missing",
+    "severity": 0.0,
+    "accuracy": 0.7742666666666667
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.01,
+    "accuracy": 0.7704
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.05,
+    "accuracy": 0.7498666666666667
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.1,
+    "accuracy": 0.738
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.2,
+    "accuracy": 0.7069333333333333
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.0,
+    "accuracy": 0.7742666666666667
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.01,
+    "accuracy": 0.7741333333333333
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.05,
+    "accuracy": 0.7642666666666666
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.1,
+    "accuracy": 0.7544
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.2,
+    "accuracy": 0.6917333333333333
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.0,
+    "accuracy": 0.7742666666666667
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.01,
+    "accuracy": 0.7756
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.05,
+    "accuracy": 0.7738666666666667
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.1,
+    "accuracy": 0.7656
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.2,
+    "accuracy": 0.7448
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.0,
+    "accuracy": 0.7742666666666667
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.01,
+    "accuracy": 0.7744
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.05,
+    "accuracy": 0.7745333333333333
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.1,
+    "accuracy": 0.7745333333333333
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.2,
+    "accuracy": 0.7736
+   }
+  ],
+  "adversarial_pca": [
+   {
+    "attack": "FGSM",
+    "epsilon": 0.0,
+    "accuracy": 0.7742666666666667
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.0,
+    "accuracy": 0.7742666666666667
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.01,
+    "accuracy": 0.7446666666666667
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.01,
+    "accuracy": 0.7445333333333334
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.02,
+    "accuracy": 0.7068
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.02,
+    "accuracy": 0.7038666666666666
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.05,
+    "accuracy": 0.5941333333333333
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.05,
+    "accuracy": 0.40986666666666666
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.1,
+    "accuracy": 0.5001333333333333
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.1,
+    "accuracy": 0.32413333333333333
+   }
+  ],
+  "constrained": [
+   {
+    "eps_rel": 0.0,
+    "accuracy": 0.765
+   },
+   {
+    "eps_rel": 0.02,
+    "accuracy": 0.728
+   },
+   {
+    "eps_rel": 0.05,
+    "accuracy": 0.649
+   },
+   {
+    "eps_rel": 0.1,
+    "accuracy": 0.559
+   }
+  ]
+ },
+ "1": {
+  "raw_space": [
+   {
+    "perturbation": "missing",
+    "severity": 0.0,
+    "accuracy": 0.7768
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.01,
+    "accuracy": 0.7734666666666666
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.05,
+    "accuracy": 0.7592
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.1,
+    "accuracy": 0.7504
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.2,
+    "accuracy": 0.7190666666666666
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.0,
+    "accuracy": 0.7768
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.01,
+    "accuracy": 0.7772
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.05,
+    "accuracy": 0.7669333333333334
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.1,
+    "accuracy": 0.7294666666666667
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.2,
+    "accuracy": 0.6464
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.0,
+    "accuracy": 0.7768
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.01,
+    "accuracy": 0.7769333333333334
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.05,
+    "accuracy": 0.7781333333333333
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.1,
+    "accuracy": 0.7625333333333333
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.2,
+    "accuracy": 0.7470666666666667
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.0,
+    "accuracy": 0.7768
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.01,
+    "accuracy": 0.7769333333333334
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.05,
+    "accuracy": 0.7768
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.1,
+    "accuracy": 0.7770666666666667
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.2,
+    "accuracy": 0.7773333333333333
+   }
+  ],
+  "adversarial_pca": [
+   {
+    "attack": "FGSM",
+    "epsilon": 0.0,
+    "accuracy": 0.7768
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.0,
+    "accuracy": 0.7768
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.01,
+    "accuracy": 0.7497333333333334
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.01,
+    "accuracy": 0.7494666666666666
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.02,
+    "accuracy": 0.7128
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.02,
+    "accuracy": 0.7102666666666667
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.05,
+    "accuracy": 0.4308
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.05,
+    "accuracy": 0.4096
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.1,
+    "accuracy": 0.36893333333333334
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.1,
+    "accuracy": 0.3273333333333333
+   }
+  ],
+  "constrained": [
+   {
+    "eps_rel": 0.0,
+    "accuracy": 0.767
+   },
+   {
+    "eps_rel": 0.02,
+    "accuracy": 0.745
+   },
+   {
+    "eps_rel": 0.05,
+    "accuracy": 0.688
+   },
+   {
+    "eps_rel": 0.1,
+    "accuracy": 0.627
+   }
+  ]
+ },
+ "7": {
+  "raw_space": [
+   {
+    "perturbation": "missing",
+    "severity": 0.0,
+    "accuracy": 0.7862666666666667
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.01,
+    "accuracy": 0.7748
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.05,
+    "accuracy": 0.7338666666666667
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.1,
+    "accuracy": 0.7134666666666667
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.2,
+    "accuracy": 0.6646666666666666
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.0,
+    "accuracy": 0.7862666666666667
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.01,
+    "accuracy": 0.7854666666666666
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.05,
+    "accuracy": 0.756
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.1,
+    "accuracy": 0.7037333333333333
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.2,
+    "accuracy": 0.6225333333333334
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.0,
+    "accuracy": 0.7862666666666667
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.01,
+    "accuracy": 0.7842666666666667
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.05,
+    "accuracy": 0.7661333333333333
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.1,
+    "accuracy": 0.7613333333333333
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.2,
+    "accuracy": 0.752
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.0,
+    "accuracy": 0.7862666666666667
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.01,
+    "accuracy": 0.7864
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.05,
+    "accuracy": 0.7866666666666666
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.1,
+    "accuracy": 0.7861333333333334
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.2,
+    "accuracy": 0.7854666666666666
+   }
+  ],
+  "adversarial_pca": [
+   {
+    "attack": "FGSM",
+    "epsilon": 0.0,
+    "accuracy": 0.7862666666666667
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.0,
+    "accuracy": 0.7862666666666667
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.01,
+    "accuracy": 0.7317333333333333
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.01,
+    "accuracy": 0.6121333333333333
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.02,
+    "accuracy": 0.6432
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.02,
+    "accuracy": 0.4805333333333333
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.05,
+    "accuracy": 0.5484
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.05,
+    "accuracy": 0.3585333333333333
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.1,
+    "accuracy": 0.5056
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.1,
+    "accuracy": 0.17293333333333333
+   }
+  ],
+  "constrained": [
+   {
+    "eps_rel": 0.0,
+    "accuracy": 0.781
+   },
+   {
+    "eps_rel": 0.02,
+    "accuracy": 0.718
+   },
+   {
+    "eps_rel": 0.05,
+    "accuracy": 0.557
+   },
+   {
+    "eps_rel": 0.1,
+    "accuracy": 0.488
+   }
+  ]
+ },
+ "13": {
+  "raw_space": [
+   {
+    "perturbation": "missing",
+    "severity": 0.0,
+    "accuracy": 0.7916
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.01,
+    "accuracy": 0.7830666666666667
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.05,
+    "accuracy": 0.7604
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.1,
+    "accuracy": 0.7368
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.2,
+    "accuracy": 0.7016
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.0,
+    "accuracy": 0.7916
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.01,
+    "accuracy": 0.7912
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.05,
+    "accuracy": 0.7521333333333333
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.1,
+    "accuracy": 0.69
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.2,
+    "accuracy": 0.6002666666666666
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.0,
+    "accuracy": 0.7916
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.01,
+    "accuracy": 0.7914666666666667
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.05,
+    "accuracy": 0.7686666666666667
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.1,
+    "accuracy": 0.7665333333333333
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.2,
+    "accuracy": 0.7614666666666666
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.0,
+    "accuracy": 0.7916
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.01,
+    "accuracy": 0.7917333333333333
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.05,
+    "accuracy": 0.7912
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.1,
+    "accuracy": 0.7918666666666667
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.2,
+    "accuracy": 0.7873333333333333
+   }
+  ],
+  "adversarial_pca": [
+   {
+    "attack": "FGSM",
+    "epsilon": 0.0,
+    "accuracy": 0.7916
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.0,
+    "accuracy": 0.7916
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.01,
+    "accuracy": 0.7337333333333333
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.01,
+    "accuracy": 0.7281333333333333
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.02,
+    "accuracy": 0.5204
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.02,
+    "accuracy": 0.4945333333333333
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.05,
+    "accuracy": 0.4162666666666667
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.05,
+    "accuracy": 0.3589333333333333
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.1,
+    "accuracy": 0.426
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.1,
+    "accuracy": 0.3052
+   }
+  ],
+  "constrained": [
+   {
+    "eps_rel": 0.0,
+    "accuracy": 0.785
+   },
+   {
+    "eps_rel": 0.02,
+    "accuracy": 0.743
+   },
+   {
+    "eps_rel": 0.05,
+    "accuracy": 0.526
+   },
+   {
+    "eps_rel": 0.1,
+    "accuracy": 0.396
+   }
+  ]
+ },
+ "2024": {
+  "raw_space": [
+   {
+    "perturbation": "missing",
+    "severity": 0.0,
+    "accuracy": 0.7785333333333333
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.01,
+    "accuracy": 0.7705333333333333
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.05,
+    "accuracy": 0.7405333333333334
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.1,
+    "accuracy": 0.724
+   },
+   {
+    "perturbation": "missing",
+    "severity": 0.2,
+    "accuracy": 0.6865333333333333
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.0,
+    "accuracy": 0.7785333333333333
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.01,
+    "accuracy": 0.7786666666666666
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.05,
+    "accuracy": 0.7586666666666667
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.1,
+    "accuracy": 0.7326666666666667
+   },
+   {
+    "perturbation": "jitter",
+    "severity": 0.2,
+    "accuracy": 0.6592
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.0,
+    "accuracy": 0.7785333333333333
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.01,
+    "accuracy": 0.7796
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.05,
+    "accuracy": 0.7722666666666667
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.1,
+    "accuracy": 0.7634666666666666
+   },
+   {
+    "perturbation": "packet_loss",
+    "severity": 0.2,
+    "accuracy": 0.7484
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.0,
+    "accuracy": 0.7785333333333333
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.01,
+    "accuracy": 0.7785333333333333
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.05,
+    "accuracy": 0.7782666666666667
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.1,
+    "accuracy": 0.7782666666666667
+   },
+   {
+    "perturbation": "protocol_var",
+    "severity": 0.2,
+    "accuracy": 0.7786666666666666
+   }
+  ],
+  "adversarial_pca": [
+   {
+    "attack": "FGSM",
+    "epsilon": 0.0,
+    "accuracy": 0.7785333333333333
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.0,
+    "accuracy": 0.7785333333333333
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.01,
+    "accuracy": 0.7356
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.01,
+    "accuracy": 0.7350666666666666
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.02,
+    "accuracy": 0.6676
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.02,
+    "accuracy": 0.6602666666666667
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.05,
+    "accuracy": 0.44133333333333336
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.05,
+    "accuracy": 0.3792
+   },
+   {
+    "attack": "FGSM",
+    "epsilon": 0.1,
+    "accuracy": 0.4048
+   },
+   {
+    "attack": "PGD-10",
+    "epsilon": 0.1,
+    "accuracy": 0.32226666666666665
+   }
+  ],
+  "constrained": [
+   {
+    "eps_rel": 0.0,
+    "accuracy": 0.769
+   },
+   {
+    "eps_rel": 0.02,
+    "accuracy": 0.715
+   },
+   {
+    "eps_rel": 0.05,
+    "accuracy": 0.619
+   },
+   {
+    "eps_rel": 0.1,
+    "accuracy": 0.52
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "recompute": {
+  "detected_internal_only_pct": 0,
+  "detected_with_external_anchor_pct": 100,
+  "trials": 100
+ },
+ "truncate_continue": {
+  "detected_internal_only_pct": 0,
+  "detected_with_external_anchor_pct": 100,
+  "trials": 100
+ },
+ "recompute_last_only": {
+  "detected_internal_only_pct": 0,
+  "detected_with_external_anchor_pct": 100,
+  "trials": 100
+ }
+}

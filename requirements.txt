@@ -1,0 +1,13 @@
+# Environment used for the laptop experiments in revision_experiments/
+# (the Grid'5000 runs use the pins in grid5000/requirements.txt)
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+scikit-learn>=1.5
+torch>=2.3
+pennylane>=0.44
+matplotlib>=3.9
+joblib>=1.4
+# optional, only for the explanation notebooks (not needed for the scripts above)
+shap>=0.45
+lime>=0.2

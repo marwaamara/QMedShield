@@ -1,0 +1,39 @@
+{
+ "task": "multiclass",
+ "seeds": {},
+ "params": {
+  "twin": {
+   "encoder": 3624,
+   "bottleneck": 72,
+   "decoder": 3048,
+   "total": 6744
+  },
+  "pqc": {
+   "encoder": 3624,
+   "bottleneck": 96,
+   "decoder": 3048,
+   "total": 6768
+  }
+ },
+ "latency_ms_per_sample": {
+  "1": {
+   "twin": 0.4510499711614102,
+   "pqc": 54.92630001390353
+  },
+  "32": {
+   "twin": 0.015151562365645077,
+   "pqc": 2.1628468748531304
+  },
+  "128": {
+   "twin": 0.004558593673209543,
+   "pqc": 0.859029687489965
+  }
+ },
+ "kernelshap_forward_s_per_explanation": {
+  "twin": 0.030320500023663044,
+  "pqc": 3.7704143000300974
+ },
+ "audit_us_per_event": 15.043779998086393,
+ "audit_verify_ok": true,
+ "uncontended_s_per_epoch_twin": 5.10452679998707
+}

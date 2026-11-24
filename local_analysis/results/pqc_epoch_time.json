@@ -1,0 +1,10 @@
+{
+ "pqc": {
+  "median_step_s": 0.1494355500326492,
+  "epoch_s_extrapolated": 163.4824917357182
+ },
+ "twin": {
+  "median_step_s": 0.003910200000973418,
+  "epoch_s_extrapolated": 4.27775880106492
+ }
+}

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript once it is published. A Zenodo archive with a DOI will be added after acceptance."
+title: "QMedShield: hybrid quantum-classical intrusion detection for healthcare IoMT WiFi/MQTT networks"
+type: software
+authors:
+  - family-names: Amara
+    given-names: Marwen
+    affiliation: "IRIT (CNRS) Laboratory, University of Toulouse II, France"
+  - family-names: Amara
+    given-names: Marwa
+    affiliation: "Department of Computer Science, Northern Border University, Saudi Arabia"
+  - family-names: Mnasri
+    given-names: Sami
+    affiliation: "IRIT (CNRS) Laboratory, University of Toulouse II, France; ISSAT Gafsa, University of Gafsa, Tunisia"
+  - family-names: Val
+    given-names: Thierry
+    affiliation: "IRIT (CNRS) Laboratory, University of Toulouse II, France"
+license: MIT
+repository-code: ""
+keywords:
+  - intrusion detection
+  - Internet of Medical Things
+  - quantum machine learning
+  - explainable AI
+  - tamper-evident audit log
+references:
+  - type: article
+    title: "QMedShield: A Hybrid Quantum-Classical Intrusion Detection System for Healthcare IoMT WiFi/MQTT Networks"
+    journal: "Journal of Network and Computer Applications"
+    status: in-review

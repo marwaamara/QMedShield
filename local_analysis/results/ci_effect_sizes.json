@@ -1,0 +1,174 @@
+{
+ "headline_multiclass_seed42": {
+  "acc": 0.7918666666666667,
+  "acc_ci95": [
+   0.7825333333333333,
+   0.8010666666666667
+  ],
+  "f1w": 0.7708048050063878,
+  "f1w_ci95_1000boot": [
+   0.7610463954144968,
+   0.7817331422516018
+  ]
+ },
+ "headline_binary_seed42": {
+  "acc": 0.9962666666666666,
+  "acc_ci95": [
+   0.9948,
+   0.9976
+  ]
+ },
+ "paired_vs_baselines_multiclass_seed42": {
+  "gbdt_shallow": {
+   "acc_baseline": 0.7968,
+   "diff_pp": -0.4933333333333234,
+   "diff_pp_ci95": [
+    -1.2666666666666604,
+    0.29333333333333433
+   ],
+   "discordant_ours_only": 426,
+   "discordant_baseline_only": 463,
+   "odds_ratio": 0.9200863930885529,
+   "g_discordance": -0.04161979752530934
+  },
+  "Gradient_Boosting": {
+   "acc_baseline": 0.8209333333333333,
+   "diff_pp": -2.9066666666666574,
+   "diff_pp_ci95": [
+    -3.6800000000000055,
+    -2.1199999999999997
+   ],
+   "discordant_ours_only": 339,
+   "discordant_baseline_only": 557,
+   "odds_ratio": 0.6086175942549371,
+   "g_discordance": -0.24330357142857142
+  },
+  "int8_mlp": {
+   "acc_baseline": 0.7814666666666666,
+   "diff_pp": 1.0400000000000076,
+   "diff_pp_ci95": [
+    0.4266666666666641,
+    1.6403333333333363
+   ],
+   "discordant_ours_only": 315,
+   "discordant_baseline_only": 237,
+   "odds_ratio": 1.3291139240506329,
+   "g_discordance": 0.14130434782608695
+  },
+  "KNN": {
+   "acc_baseline": 0.8101333333333334,
+   "diff_pp": -1.8266666666666653,
+   "diff_pp_ci95": [
+    -2.6799999999999935,
+    -0.9733333333333372
+   ],
+   "discordant_ours_only": 477,
+   "discordant_baseline_only": 614,
+   "odds_ratio": 0.7768729641693811,
+   "g_discordance": -0.12557286892758937
+  },
+  "MLP": {
+   "acc_baseline": 0.7964,
+   "diff_pp": -0.4533333333333278,
+   "diff_pp_ci95": [
+    -1.0000000000000009,
+    0.09333333333333416
+   ],
+   "discordant_ours_only": 204,
+   "discordant_baseline_only": 238,
+   "odds_ratio": 0.8571428571428571,
+   "g_discordance": -0.07692307692307693
+  },
+  "pruned_mlp": {
+   "acc_baseline": 0.7824,
+   "diff_pp": 0.9466666666666734,
+   "diff_pp_ci95": [
+    0.33333333333334103,
+    1.5470000000000022
+   ],
+   "discordant_ours_only": 313,
+   "discordant_baseline_only": 242,
+   "odds_ratio": 1.2933884297520661,
+   "g_discordance": 0.12792792792792793
+  },
+  "Random_Forest": {
+   "acc_baseline": 0.8274666666666667,
+   "diff_pp": -3.5599999999999965,
+   "diff_pp_ci95": [
+    -4.37333333333334,
+    -2.746666666666664
+   ],
+   "discordant_ours_only": 366,
+   "discordant_baseline_only": 633,
+   "odds_ratio": 0.5781990521327014,
+   "g_discordance": -0.2672672672672673
+  },
+  "rf20": {
+   "acc_baseline": 0.8009333333333334,
+   "diff_pp": -0.9066666666666667,
+   "diff_pp_ci95": [
+    -1.6133333333333333,
+    -0.1866666666666683
+   ],
+   "discordant_ours_only": 335,
+   "discordant_baseline_only": 403,
+   "odds_ratio": 0.8312655086848635,
+   "g_discordance": -0.0921409214092141
+  },
+  "SVM_(RBF)": {
+   "acc_baseline": 0.7716,
+   "diff_pp": 2.0266666666666766,
+   "diff_pp_ci95": [
+    1.306666666666667,
+    2.733333333333332
+   ],
+   "discordant_ours_only": 464,
+   "discordant_baseline_only": 312,
+   "odds_ratio": 1.4871794871794872,
+   "g_discordance": 0.1958762886597938
+  }
+ },
+ "matched_controls_vs_pqc_hedges_g": {
+  "Random Fourier map": {
+   "diff_pp_vs_pqc": 0.74,
+   "hedges_g": 1.35,
+   "g_ci95": [
+    -0.02,
+    2.72
+   ]
+  },
+  "Tiny MLP": {
+   "diff_pp_vs_pqc": 0.58,
+   "hedges_g": 1.02,
+   "g_ci95": [
+    -0.3,
+    2.34
+   ]
+  },
+  "Dense linear map": {
+   "diff_pp_vs_pqc": 0.45,
+   "hedges_g": 0.66,
+   "g_ci95": [
+    -0.62,
+    1.93
+   ]
+  },
+  "Identity (no bottleneck)": {
+   "diff_pp_vs_pqc": 0.18,
+   "hedges_g": 0.27,
+   "g_ci95": [
+    -0.98,
+    1.52
+   ]
+  }
+ },
+ "twin_rerun_for_timing_and_robustness_5seed": {
+  "mean": 0.7814933333333334,
+  "sd": 0.007210116349808622,
+  "hedges_g_vs_pqc": -0.31,
+  "g_ci95": [
+   -1.55,
+   0.94
+  ]
+ }
+}
